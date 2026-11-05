@@ -1,0 +1,87 @@
+{
+  "name": "HarinandhReddy Areti",
+  "headline": "B.Tech Computer Science student and open-source contributor",
+  "contact": {
+    "email": "harinandhreddy@gmail.com",
+    "github": "github.com/harinandhreddy0411",
+    "linkedin": "linkedin.com/in/harinandhreddy"
+  },
+  "education": [
+    {
+      "title": "Amrita Vishwa Vidyapeetham, Amritapuri",
+      "detail": "B.Tech Computer Science and Engineering. CGPA 9.01/10.",
+      "when": "2025–2029"
+    },
+    {
+      "title": "Sri Chaitanya Junior College",
+      "detail": "Class 12: 97.4%",
+      "when": ""
+    },
+    {
+      "title": "St. Peter's School",
+      "detail": "CBSE Class 10: 96.4%",
+      "when": ""
+    }
+  ],
+  "openSource": {
+    "title": "Kyverno (CNCF)",
+    "points": [
+      "Merged a fix for strict seccomp inheritance in a CEL policy (kyverno/policies #1496).",
+      "Opened a pull request for a JMESPath missing-key crash (kyverno/kyverno #16259): a scoped logical-OR evaluator, recursive for nested expressions, backed by 11 test cases. Reworked through three rounds of maintainer review.",
+      "Opened a pull request adding Prometheus workqueue metrics for the background controller (kyverno/kyverno #16660), routing them into the exposed metrics registry and verifying the endpoint output locally.",
+      "Proposed stronger mTLS certificate verification in the webhook server; maintainers asked for a formal Kyverno Design Proposal.",
+      "Invited by a maintainer to present at a Kyverno community meeting."
+    ]
+  },
+  "projects": [
+    {
+      "title": "Alumni Mentorship Matcher",
+      "detail": "Full-stack platform connecting students with alumni mentors. Matching and integrity rules live in MySQL: 13 tables in BCNF, 14 triggers, 11 stored procedures, 5 views and a match-score function. Node.js, Express, MySQL; deployed on GitHub Pages, Render and Aiven."
+    },
+    {
+      "title": "Travel Companion",
+      "detail": "Trip planner in Next.js and TypeScript. Gemini nominates places, Geoapify verifies them, and every itinerary rule is validated in code with up to three retries. Leaflet map, Zod validation, deployed on Vercel."
+    },
+    {
+      "title": "Novus AI Interview Simulator",
+      "detail": "Mock-interview app with adaptive question selection across four role banks, scored on correctness, communication and composure. Supabase auth and storage with row-level security, a Gemini proxy in an Edge Function, and on-device face analysis with TensorFlow.js."
+    },
+    {
+      "title": "Mentor assignment bot",
+      "detail": "Python and discord.py bot for the biOs Pentest Club that assigns recruits to mentors, with persistent JSON state and startup catch-up."
+    },
+    {
+      "title": "Android CTF challenges",
+      "detail": "Designed three Android reverse-engineering challenges (one easy, two medium) for a CTF."
+    },
+    {
+      "title": "Mobile Application Vulnerability Analysis",
+      "detail": "Android pentest project using jadx, apktool and ADB."
+    }
+  ],
+  "skills": [
+    {
+      "label": "Languages",
+      "items": "Java, Python, C++, JavaScript, TypeScript, Go, SQL, HTML/CSS"
+    },
+    {
+      "label": "Web and data",
+      "items": "React, Next.js, Node.js, Express, MySQL, Supabase, Tailwind CSS, REST APIs"
+    },
+    {
+      "label": "Tools and cloud",
+      "items": "Git and GitHub, Linux, Vercel, Render, Kyverno (Kubernetes policy)"
+    },
+    {
+      "label": "Security",
+      "items": "Android reverse engineering, jadx, apktool, ADB"
+    }
+  ],
+  "coursework": "Object-Oriented Programming (Java), DBMS and SQL, Data Structures and Algorithms, Programming in Python, Programming in C++, Discrete Mathematics",
+  "activities": [
+    "Active member, biOs Pentest Club.",
+    "Former member, ACM Student Chapter (about six months); completed ACM's Bridge Course on programming fundamentals.",
+    "Represented the college hockey team in inter- and intra-college tournaments.",
+    "Participant, Amrita Annual Sports Meet 2026."
+  ]
+}
